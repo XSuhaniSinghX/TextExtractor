@@ -9,14 +9,14 @@ import java.io.File;
 public class Main {
 
     public static void main(String[] args) {
-        // This will main frame
+       
         JFrame frame = new JFrame("Text Extraction Tool 🩷");
         frame.setSize(600, 500);  
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
 
         
-        frame.getContentPane().setBackground(new Color(255, 182, 193)); // Light pink
+        frame.getContentPane().setBackground(new Color(255, 182, 193)); 
 
        
         JPanel panel = new JPanel();
@@ -125,7 +125,7 @@ public class Main {
 
                     
                     JButton backButton = new JButton("Back ");
-                    backButton.setBackground(new Color(255, 105, 180)); // Hot pink
+                    backButton.setBackground(new Color(255, 105, 180)); 
                     backButton.setFont(new Font("Comic Sans MS", Font.BOLD, 14));
                     backButton.setForeground(Color.WHITE);
                     backButton.setFocusPainted(false); 

@@ -15,7 +15,7 @@ public class WordExtractor {
         try (FileInputStream fis = new FileInputStream(wordFile);
              XWPFDocument doc = new XWPFDocument(fis)) {
 
-            // Extract text from paragraphs
+            
             List<XWPFParagraph> paragraphs = doc.getParagraphs();
             for (XWPFParagraph paragraph : paragraphs) {
                 result.append(paragraph.getText()).append("\n");

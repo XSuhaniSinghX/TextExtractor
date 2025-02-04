@@ -11,7 +11,7 @@ public class ImageExtractor {
         Tesseract tesseract = new Tesseract();
         String result = "";
         try {
-            tesseract.setDatapath("C:/Program Files/Tesseract-OCR/tessdata"); // Ensure correct path
+            tesseract.setDatapath("C:/Program Files/Tesseract-OCR/tessdata");
             result = tesseract.doOCR(imageFile);
         } catch (TesseractException e) {
             e.printStackTrace();
